@@ -169,7 +169,7 @@ require_once 'includes/config.php';
                 <!-- Small Unit -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/small-unit 2.jpg" class="card-img-top" alt="Small Storage Unit">
+                        <img src="assets/images/small8unit2.png" class="card-img-top" alt="Small Storage Unit">
                         <div class="card-body">
                             <h4>Small Unit</h4>
                             <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
