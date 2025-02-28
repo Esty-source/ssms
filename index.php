@@ -169,7 +169,7 @@ require_once 'includes/config.php';
                 <!-- Small Unit -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/small8unit2.png" class="card-img-top" alt="Small Storage Unit">
+                        <img src="assets/images/small_unit2.png" class="card-img-top" alt="Small Storage Unit">
                         <div class="card-body">
                             <h4>Small Unit</h4>
                             <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
@@ -291,8 +291,9 @@ require_once 'includes/config.php';
     </section>
 
     <!-- CTA Section with Background Image -->
-    <section class="get-started-section">
-        <div class="container">
+    <section class="get-started-section position-relative">
+        <div class="get-started-bg-image" style="background-image: url('assets/images/section.jpg');"></div>
+        <div class="container position-relative">
             <div class="row justify-content-center">
                 <div class="col-md-8" data-aos="fade-up">
                     <h2 class="mb-4">Ready to Get Started?</h2>
