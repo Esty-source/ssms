@@ -221,28 +221,28 @@ require_once 'includes/config.php';
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-card text-center">
-                        <img src="assets/images/security.jpg" class="rounded-circle mb-3" alt="24/7 Security" width="150" height="150">
+                    <i class="bi bi-shield-lock fs-1 text-primary"></i>
                         <h4>24/7 Security</h4>
                         <p>Round-the-clock surveillance and secure access control</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-card text-center">
-                        <img src="assets/images/climate.jpg" class="rounded-circle mb-3" alt="Climate Control" width="150" height="150">
+                    <i class="bi bi-thermometer-half fs-1 text-primary"></i>
                         <h4>Climate Control</h4>
                         <p>Temperature-controlled units to protect your belongings</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="feature-card text-center">
-                        <img src="assets/images/access.jpg" class="rounded-circle mb-3" alt="Easy Access" width="150" height="150">
+                    <i class="bi bi-unlock fs-1 text-primary"></i>
                         <h4>Easy Access</h4>
                         <p>24/7 access with your personal security code</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="feature-card text-center">
-                        <img src="assets/images/support.jpg" class="rounded-circle mb-3" alt="Customer Support" width="150" height="150">
+                    <i class="bi bi-headset fs-1 text-primary"></i>
                         <h4>Customer Support</h4>
                         <p>Dedicated team ready to assist you</p>
                     </div>
@@ -252,37 +252,43 @@ require_once 'includes/config.php';
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-5">
+    <section class="py-5 testimonials-section">
         <div class="container">
             <h2 class="text-center mb-5" data-aos="fade-up">What Our Customers Say</h2>
             <div class="row g-4">
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-100 shadow-sm testimonial-card">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial1.jpg" class="rounded-circle mb-3" alt="Customer 1" width="80" height="80">
-                            <p class="mb-4">"Excellent service! The units are clean, secure, and easily accessible. Staff is always helpful."</p>
-                            <h5 class="mb-1">John Smith</h5>
-                            <p class="text-muted">Business Owner</p>
+                            <img src="assets/images/testimonial1.jpg" class="testimonial-image" alt="Customer 1">
+                            <div class="testimonial-quote">
+                                <p class="mb-0">"Excellent service! The units are clean, secure, and easily accessible. Staff is always helpful."</p>
+                            </div>
+                            <h5 class="testimonial-name mb-1">John Smith</h5>
+                            <p class="testimonial-role">Business Owner</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-100 shadow-sm testimonial-card">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial2.jpg" class="rounded-circle mb-3" alt="Customer 2" width="80" height="80">
-                            <p class="mb-4">"The climate-controlled units are perfect for storing my valuable items. Great security too!"</p>
-                            <h5 class="mb-1">Sarah Johnson</h5>
-                            <p class="text-muted">Home Owner</p>
+                            <img src="assets/images/testimonial2.jpg" class="testimonial-image" alt="Customer 2">
+                            <div class="testimonial-quote">
+                                <p class="mb-0">"The climate-controlled units are perfect for storing my valuable items. Great security too!"</p>
+                            </div>
+                            <h5 class="testimonial-name mb-1">Sarah Johnson</h5>
+                            <p class="testimonial-role">Home Owner</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card h-100 shadow-sm testimonial-card">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial3.jpg" class="rounded-circle mb-3" alt="Customer 3" width="80" height="80">
-                            <p class="mb-4">"Affordable prices and flexible rental terms. Exactly what I needed for my storage needs."</p>
-                            <h5 class="mb-1">Mike Wilson</h5>
-                            <p class="text-muted">Student</p>
+                            <img src="assets/images/testimonial3.jpg" class="testimonial-image" alt="Customer 3">
+                            <div class="testimonial-quote">
+                                <p class="mb-0">"Affordable prices and flexible rental terms. Exactly what I needed for my storage needs."</p>
+                            </div>
+                            <h5 class="testimonial-name mb-1">Mike Wilson</h5>
+                            <p class="testimonial-role">Student</p>
                         </div>
                     </div>
                 </div>

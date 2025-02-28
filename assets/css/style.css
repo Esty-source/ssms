@@ -353,6 +353,37 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Testimonials Section Styling */
+.testimonials-section .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.testimonials-section .testimonial-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
+.testimonials-section .testimonial-quote {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.testimonials-section .testimonial-name {
+    margin-bottom: 0.25rem;
+}
+
+.testimonials-section .testimonial-role {
+    color: var(--bs-gray-600);
+}
+
 /* Price Cards */
 .price-card {
     border: none;

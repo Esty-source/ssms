@@ -1,0 +1,1 @@
+<img src="assets/images/support.jpg" class="rounded-circle mb-3" alt="Customer Support" width="150" height="150">
