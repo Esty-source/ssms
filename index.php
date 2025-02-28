@@ -110,9 +110,7 @@ require_once 'includes/config.php';
 
     <!-- Hero Section -->
     <section class="hero-section home-hero">
-        <video class="video-background" autoplay muted loop>
-            <source src="assets/videos/storage-facility.mp4" type="video/mp4">
-        </video>
+        <div class="hero-image" style="background-image: url('assets/images/hero-storage-facility.jpg'); background-size: cover; background-position: center;"></div>
         <div class="overlay"></div>
         <div class="content">
             <div class="container">
@@ -164,55 +162,51 @@ require_once 'includes/config.php';
     </section>
 
     <!-- Featured Units Section -->
-    <section class="py-5">
+    <section class="py-5 storage-units">
         <div class="container">
             <h2 class="text-center mb-5" data-aos="fade-up">Popular Storage Solutions</h2>
             <div class="row g-4">
                 <!-- Small Unit -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/small-unit.jpg" class="card-img-top" alt="Small Storage Unit">
+                        <img src="assets/images/small-unit 2.jpg" class="card-img-top" alt="Small Storage Unit">
                         <div class="card-body">
                             <h4>Small Unit</h4>
                             <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
-                            </ul>
-                            <p class="h4 mb-0">From £49/month</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$50/month</span>
+                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- Medium Unit -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/medium-unit.jpg" class="card-img-top" alt="Medium Storage Unit">
+                        <img src="assets/images/medium_unit2.png" class="card-img-top" alt="Medium Storage Unit">
                         <div class="card-body">
                             <h4>Medium Unit</h4>
                             <p class="text-dark mb-3">Ideal for apartment or office contents</p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
-                            </ul>
-                            <p class="h4 mb-0">From £99/month</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$100/month</span>
+                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <!-- Large Unit -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/large-unit.jpg" class="card-img-top" alt="Large Storage Unit">
+                        <img src="assets/images/large_unit2.png" class="card-img-top" alt="Large Storage Unit">
                         <div class="card-body">
                             <h4>Large Unit</h4>
                             <p class="text-dark mb-3">Perfect for house contents or business storage</p>
-                            <ul class="list-unstyled">
-                                <li><i class="bi bi-check2-circle me-2"></i>200 sq ft space</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
-                            </ul>
-                            <p class="h4 mb-0">From £149/month</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$200/month</span>
+                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
