@@ -234,6 +234,32 @@ footer {
     color: #fff !important;
 }
 
+/* Features Section Icons */
+.feature-card .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-card .icon-container i {
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .icon-container {
+    transform: scale(1.05);
+    background-color: rgba(var(--bs-primary-rgb), 0.2);
+}
+
+.feature-card:hover .icon-container i {
+    transform: rotate(10deg);
+}
+
 /* Navigation link styles */
 .navbar .nav-link {
     position: relative;
