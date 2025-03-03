@@ -85,17 +85,17 @@ require_once 'includes/config.php';
     <?php require_once 'includes/header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="hero-section page-hero">
+    <section class="page-hero hero-section position-relative" style="background-image: url('assets/images/about-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="overlay"></div>
         <div class="content">
             <div class="container">
-                <h1 class="display-4">Storage <span class="text-danger">Units</span></h1>
-                <p class="lead">Find the perfect storage solution for your needs</p>
+                <h1 class="display-4 text-white">Storage <span class="text-danger">Units</span></h1>
             </div>
         </div>
     </section>
 
     <!-- Storage Units Section -->
-    <section class="section-padding">
+    <section class="py-5 storage-units">
         <div class="container">
             <!-- Filter Section -->
             <div class="row mb-5">
@@ -144,17 +144,14 @@ require_once 'includes/config.php';
                 <!-- Small Unit -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/images/small-unit.jpg" class="card-img-top" alt="Small Storage Unit">
+                        <img src="assets/images/small_unit2.png" class="card-img-top" alt="Small Storage Unit">
                         <div class="card-body">
                             <h5 class="card-title text-dark">Small Storage Unit</h5>
                             <p class="text-dark mb-2">£45/month</p>
-                            <p class="card-text text-dark">Perfect for personal items, seasonal decorations, or small furniture.</p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="bi bi-check2 text-dark me-2"></i>5x5 feet (25 sq ft)</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>Climate controlled</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>Ground floor access</li>
-                            </ul>
-                            <a href="contact.php?unit=small" class="btn btn-primary mt-3">Book Now</a>
+                            <p class="card-text text-dark">Perfect for a few boxes or small furniture items</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,17 +159,14 @@ require_once 'includes/config.php';
                 <!-- Medium Unit -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/images/medium-unit.jpg" class="card-img-top" alt="Medium Storage Unit">
+                        <img src="assets/images/medium_unit2.png" class="card-img-top" alt="Medium Storage Unit">
                         <div class="card-body">
                             <h5 class="card-title text-dark">Medium Storage Unit</h5>
                             <p class="text-dark mb-2">£85/month</p>
-                            <p class="card-text text-dark">Ideal for apartment contents or business inventory storage.</p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="bi bi-check2 text-dark me-2"></i>10x10 feet (100 sq ft)</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>24/7 access available</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>Security monitoring</li>
-                            </ul>
-                            <a href="contact.php?unit=medium" class="btn btn-primary mt-3">Book Now</a>
+                            <p class="card-text text-dark">Ideal for apartment or office contents or more</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,17 +174,14 @@ require_once 'includes/config.php';
                 <!-- Large Unit -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/images/large-unit.jpg" class="card-img-top" alt="Large Storage Unit">
+                        <img src="assets/images/large_unit2.png" class="card-img-top" alt="Large Storage Unit">
                         <div class="card-body">
                             <h5 class="card-title text-dark">Large Storage Unit</h5>
                             <p class="text-dark mb-2">£150/month</p>
-                            <p class="card-text text-dark">Suitable for house contents or large business storage needs.</p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="bi bi-check2 text-dark me-2"></i>10x20 feet (200 sq ft)</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>Drive-up access</li>
-                                <li><i class="bi bi-check2 text-dark me-2"></i>Commercial grade security</li>
-                            </ul>
-                            <a href="contact.php?unit=large" class="btn btn-primary mt-3">Book Now</a>
+                            <p class="card-text text-dark">Perfect for house contents or business storage</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Rent Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>

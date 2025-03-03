@@ -854,3 +854,11 @@ footer .list-unstyled li a:hover {
     z-index: 2;
     text-align: center;
 }
+
+/* Storage Unit Card Images */
+.storage-units .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
