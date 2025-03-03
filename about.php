@@ -32,16 +32,23 @@ require_once 'includes/config.php';
         .text-danger {
             color: #dc3545 !important;
         }
+        
+        /* Debug styles for hero background */
+        .page-hero .hero-bg-image {
+            border: 5px solid red;
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
     <?php require_once 'includes/header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="hero-section page-hero">
+    <section class="page-hero hero-section position-relative" style="background-image: url('assets/images/about-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="overlay"></div>
         <div class="content">
             <div class="container">
-                <h1 class="display-4">About <span class="text-danger">Safe Lock</span> Storage</h1>
+                <h1 class="display-4 text-white">About <span class="text-danger">Safe Lock</span> Storage</h1>
             </div>
         </div>
     </section>
