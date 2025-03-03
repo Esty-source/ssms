@@ -800,3 +800,13 @@ footer .footer-links a:hover {
 footer .list-inline-item.text-white {
     display: none;
 }
+
+/* Footer Quick Links Styling */
+footer .list-unstyled a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .list-unstyled a:hover {
+    color: var(--bs-primary) !important;
+}
