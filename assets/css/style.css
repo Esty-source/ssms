@@ -803,10 +803,11 @@ footer .list-inline-item.text-white {
 
 /* Footer Quick Links Styling */
 footer .list-unstyled a {
-    text-decoration: none;
+    text-decoration: none !important;
     transition: color 0.3s ease;
 }
 
 footer .list-unstyled a:hover {
+    text-decoration: none !important;
     color: var(--bs-primary) !important;
 }
