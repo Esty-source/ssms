@@ -58,7 +58,7 @@ require_once 'includes/config.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="assets/images/storage-facility.jpg" alt="Our Storage Facility" class="img-fluid rounded shadow">
+                    <img src="assets/images/climate.jpg" alt="Our Storage Facility" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="mb-4">Our Story</h2>
