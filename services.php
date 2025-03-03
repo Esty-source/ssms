@@ -14,11 +14,12 @@ require_once 'includes/config.php';
 <body>
     <?php require_once 'includes/header.php'; ?>
 
-    <section class="hero-section page-hero">
+    <section class="page-hero hero-section position-relative" style="background-image: url('assets/images/about-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="overlay"></div>
         <div class="content">
             <div class="container">
-                <h1 class="display-4">Our <span class="text-danger">Services</span></h1>
-                <p class="lead">Comprehensive storage and moving solutions for all your needs</p>
+                <h1 class="display-4 text-white">Our <span class="text-danger">Services</span></h1>
+                <p class="lead text-white">Comprehensive storage and moving solutions for all your needs</p>
             </div>
         </div>
     </section>
