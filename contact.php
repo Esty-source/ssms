@@ -86,11 +86,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php require_once 'includes/header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="hero-section page-hero">
+    <section class="page-hero hero-section position-relative" style="background-image: url('assets/images/about-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="overlay"></div>
         <div class="content">
             <div class="container">
-                <h1 class="display-4">Contact <span class="text-danger">Us</span></h1>
-                <p class="lead">Get in touch with our team for any inquiries</p>
+                <h1 class="display-4 text-white">Contact <span class="text-danger">Safe Lock</span> Storage</h1>
+                <p class="lead text-white">We're here to help. Reach out to us with any questions or inquiries.</p>
             </div>
         </div>
     </section>
@@ -176,7 +177,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </div>
                             <div class="mb-4">
                                 <h5 class="text-dark">Phone</h5>
-                                <p class="mb-0 text-dark">02890 8592923</p>
+                                <p class="mb-0 text-dark">+447481597581</p>
                             </div>
                             <div class="mb-4">
                                 <h5 class="text-dark">Email</h5>
