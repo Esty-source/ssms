@@ -25,13 +25,13 @@ require_once 'includes/config.php';
     </section>
 
     <!-- Services Section -->
-    <section class="section-padding">
+    <section class="section-padding services-section">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center p-4">
-                            <div class="feature-icon mb-4">
+                            <div class="feature-icon box-seam-icon mb-4">
                                 <i class="bi bi-box-seam"></i>
                             </div>
                             <h3>Personal Storage</h3>

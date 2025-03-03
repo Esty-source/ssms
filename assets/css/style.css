@@ -862,3 +862,66 @@ footer .list-unstyled li a:hover {
     object-fit: cover;
     object-position: center;
 }
+
+/* Services Page Feature Icons with Enhanced Visibility */
+.services-section .feature-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(255, 87, 34, 0.2);  /* Vibrant orange-red background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.services-section .feature-icon i {
+    font-size: 3rem;
+    color: #ff5722 !important;  /* Bright, saturated orange-red */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.services-section .feature-icon:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 87, 34, 0.3);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.services-section .feature-icon:hover i {
+    color: #d32f2f !important;  /* Deeper red on hover */
+    transform: scale(1.1);
+}
+
+/* Vibrant Styling for Box Seam Icon */
+.services-section .feature-icon.box-seam-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 87, 34, 0.2);  /* Vibrant orange-red background */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.services-section .feature-icon.box-seam-icon i {
+    font-size: 3rem;
+    color: #ff5722 !important;  /* Bright, saturated orange-red */
+    transition: all 0.3s ease;
+}
+
+.services-section .feature-icon.box-seam-icon:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 87, 34, 0.3);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.services-section .feature-icon.box-seam-icon:hover i {
+    color: #d32f2f !important;  /* Deeper red on hover */
+    transform: scale(1.1);
+}
