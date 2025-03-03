@@ -222,42 +222,44 @@ footer {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: rgba(220, 53, 69, 0.1);
+    background-color: rgba(33, 150, 243, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 1rem;
-}
-
-.feature-icon i {
-    font-size: 2rem;
-    color: #fff !important;
-}
-
-/* Features Section Icons */
-.feature-card .icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 1rem;
-    border-radius: 50%;
-    background-color: rgba(var(--bs-primary-rgb), 0.1);
     transition: all 0.3s ease;
 }
 
-.feature-card .icon-container i {
-    transition: transform 0.3s ease;
+.feature-icon i {
+    font-size: 2.5rem;
+    color: #2196f3 !important;
+    transition: all 0.3s ease;
 }
 
-.feature-card:hover .icon-container {
+.feature-icon:hover {
     transform: scale(1.05);
-    background-color: rgba(var(--bs-primary-rgb), 0.2);
+    background-color: rgba(33, 150, 243, 0.2);
 }
 
-.feature-card:hover .icon-container i {
-    transform: rotate(10deg);
+.feature-icon:hover i {
+    color: #1976d2 !important;
+    transform: scale(1.1);
+}
+
+/* Feature Card Icons */
+.feature-card i {
+    color: #007bff !important;  /* Bright, vibrant blue */
+    background-color: rgba(0, 123, 255, 0.1);  /* Light blue background */
+    padding: 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.feature-card i:hover {
+    color: #0056b3 !important;  /* Darker blue on hover */
+    background-color: rgba(0, 123, 255, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 /* Navigation link styles */
