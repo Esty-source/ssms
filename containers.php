@@ -82,6 +82,7 @@ require_once 'includes/config.php';
         .feature-icon {
         text-align: center; 
     }
+        
     </style>
 </head>
 <body>
@@ -299,25 +300,6 @@ require_once 'includes/config.php';
                             </div>
                         </div>
                     </div>
-
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <h2 class="mb-4">Climate-Controlled Units</h2>
-                                <p class="lead">Protect your sensitive items with our climate-controlled storage units:</p>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Constant temperature monitoring</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Humidity control systems</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Air filtration</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Weather-resistant construction</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="assets/images/climate.jpg" class="img-fluid rounded shadow" alt="Climate Control">
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Carousel Controls -->
@@ -342,6 +324,7 @@ require_once 'includes/config.php';
     <!-- CTA Section -->
     <section class="section-padding bg-dark text-dark text-center">
         <div class="container">
+            
             <h2 class="mb-4 text-dark">Ready to Store with Us?</h2>
             <p class="lead mb-4 text-dark">Contact us today to reserve your storage unit</p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn-primary btn-lg">Get Started</a>

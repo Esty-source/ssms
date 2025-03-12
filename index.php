@@ -332,7 +332,7 @@ require_once 'includes/config.php';
                     </div>
                 </div>
 
-                
+
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
@@ -362,6 +362,7 @@ require_once 'includes/config.php';
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8" data-aos="fade-up">
+                    
                     <h2 class="mb-4">Ready to Get Started?</h2>
                     <p class="lead mb-4">Choose your perfect storage solution today and enjoy peace of mind knowing your belongings are safe with us.</p>
                     <a href="contact.php" class="btn btn-light btn-lg">Contact Us Now</a>
