@@ -200,7 +200,7 @@ require_once 'includes/config.php';
                         <img src="assets/images/30ft.png" class="card-img-top" alt="30ft container">
                         <div class="card-body">
                             <h4>30ft Container</h4>
-                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <p class="text-dark mb-3">ideal for storing bulk goods, construction materials or equipment</p>
                             <ul class="list-unstyled">
                                 <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
                                 <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
@@ -216,7 +216,7 @@ require_once 'includes/config.php';
                         <img src="assets/images/40ft.png" class="card-img-top" alt="40ft container">
                         <div class="card-body">
                             <h4>40ft Container</h4>
-                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <p class="text-dark mb-3">perfect for storing large volumes of cargo, vehicles and industrial equipment</p>
                             <ul class="list-unstyled">
                                 <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
                                 <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
@@ -232,7 +232,7 @@ require_once 'includes/config.php';
                         <img src="assets/images/45ft.png" class="card-img-top" alt="45ft container">
                         <div class="card-body">
                             <h4>45ft Container</h4>
-                            <p class="text-dark mb-3">Ideal for apartment or office contents</p>
+                            <p class="text-dark mb-3">perfect for storing oversized cargo, bulky equipment, or high-volume goods</p>
                             <ul class="list-unstyled">
                                 <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
                                 <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
@@ -324,7 +324,6 @@ require_once 'includes/config.php';
     <!-- CTA Section -->
     <section class="section-padding bg-dark text-dark text-center">
         <div class="container">
-            
             <h2 class="mb-4 text-dark">Ready to Store with Us?</h2>
             <p class="lead mb-4 text-dark">Contact us today to reserve your storage unit</p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn-primary btn-lg">Get Started</a>
