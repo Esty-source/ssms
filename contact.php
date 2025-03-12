@@ -172,12 +172,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <h3 class="mb-4">Contact Information</h3>
                             <div class="mb-4">
                                 <h5 class="text-dark">Address</h5>
-                                <p class="mb-0 text-dark">123 Storage Street</p>
-                                <p class="text-dark">Birmingham, B1 1AA</p>
+                                <p class="mb-0 text-dark">11-12 Anne Road, Smethwick</p>
+                                <p class="text-dark">Birmingham, B66 2NZ</p>
                             </div>
                             <div class="mb-4">
                                 <h5 class="text-dark">Phone</h5>
-                                <p class="mb-0 text-dark">+447481597581</p>
+                                <p class="mb-0 text-dark">Tel: +44 7481 597581</p>
+                                <p class="mb-0 text-dark">Tel: +44 7427497479</p>
                             </div>
                             <div class="mb-4">
                                 <h5 class="text-dark">Email</h5>

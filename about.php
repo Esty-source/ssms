@@ -128,30 +128,30 @@ require_once 'includes/config.php';
                 <div class="col-md-4 fade-in">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <img src="assets/images/team-1.jpg" alt="John Smith" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
-                            <h5 class="card-title">John Smith</h5>
-                            <p class="text-danger mb-2">CEO & Founder</p>
-                            <p class="card-text">With over 20 years in the storage industry, John leads our company with passion and innovation.</p>
+                            <img src="assets/images/toni.jpg" alt="Toni Ebong" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">Toni Ebong</h5>
+                            <p class="text-danger mb-2">CEO & Co-Founder</p>
+                            <p class="card-text">With over 20 years in the storage industry, Toni leads our company with passion and innovation.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 fade-in">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <img src="assets/images/team-2.jpg" alt="Sarah Johnson" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
-                            <h5 class="card-title">Sarah Johnson</h5>
+                            <img src="assets/images/team-3.jpg" alt="Alieu Jagne" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">Alieu Jagne</h5>
+                            <p class="text-danger mb-2">Co-Founder</p>
+                            <p class="card-text">Jagne helps drive innovative storage solutions with a passion for excellence and customer satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <img src="assets/images/bao.jpg" alt="Bao Jr" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
+                            <h5 class="card-title">Bao Jr</h5>
                             <p class="text-danger mb-2">Operations Manager</p>
-                            <p class="card-text">Sarah ensures smooth daily operations and maintains our high service standards.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 fade-in">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <img src="assets/images/team-3.jpg" alt="Mike Williams" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
-                            <h5 class="card-title">Mike Williams</h5>
-                            <p class="text-danger mb-2">Security Director</p>
-                            <p class="card-text">Mike oversees our comprehensive security systems and protocols.</p>
+                            <p class="card-text">Bao Jr ensures smooth daily operations and maintains our high service standards.</p>
                         </div>
                     </div>
                 </div>
@@ -164,11 +164,11 @@ require_once 'includes/config.php';
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-md-3 fade-in">
-                    <h2 class="display-4 mb-3">500+</h2>
+                    <h2 class="display-4 mb-3">45+</h2>
                     <p class="lead">Storage Units</p>
                 </div>
                 <div class="col-md-3 fade-in">
-                    <h2 class="display-4 mb-3">1000+</h2>
+                    <h2 class="display-4 mb-3">100+</h2>
                     <p class="lead">Happy Customers</p>
                 </div>
                 <div class="col-md-3 fade-in">

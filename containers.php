@@ -79,6 +79,9 @@ require_once 'includes/config.php';
         .carousel-item .list-unstyled li:hover {
             opacity: 1;
         }
+        .feature-icon {
+        text-align: center; 
+    }
     </style>
 </head>
 <body>
@@ -128,9 +131,10 @@ require_once 'includes/config.php';
                                     <label class="form-label text-dark">Features</label>
                                     <select class="form-select">
                                         <option value="">All Features</option>
-                                        <option value="climate">Climate Controlled</option>
-                                        <option value="247">24/7 Access</option>
-                                        <option value="ground">Ground Floor</option>
+                                        <option value="downstairs">Downstairs</option>
+                                        <option value="upstairs">upstairs</option>
+                                        <option value="open door">open door</option>
+                                        <option value="closed door">closed door</option>
                                     </select>
                                 </div>
                             </form>
@@ -141,47 +145,99 @@ require_once 'includes/config.php';
 
             <!-- Units Grid -->
             <div class="row g-4">
-                <!-- Small Unit -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="assets/images/small_unit2.png" class="card-img-top" alt="Small Storage Unit">
+                  <!-- 10ft Container -->
+                  <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/10ft.png" class="card-img-top" alt="10ft container">
                         <div class="card-body">
-                            <h5 class="card-title text-dark">Small Storage Unit</h5>
-                            <p class="text-dark mb-2">£45/month</p>
-                            <p class="card-text text-dark">Perfect for a few boxes or small furniture items</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Rent Now</a>
-                            </div>
+                            <h4>10ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £90/month</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Medium Unit -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="assets/images/medium_unit2.png" class="card-img-top" alt="Medium Storage Unit">
+                <!-- 20ft Container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/20ft.png" class="card-img-top" alt="20ft container">
                         <div class="card-body">
-                            <h5 class="card-title text-dark">Medium Storage Unit</h5>
-                            <p class="text-dark mb-2">£85/month</p>
-                            <p class="card-text text-dark">Ideal for apartment or office contents or more</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Rent Now</a>
-                            </div>
+                            <h4>20ft Container</h4>
+                            <p class="text-dark mb-3">Ideal for apartment or office contents</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £150/month</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Large Unit -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 shadow-sm">
-                        <img src="assets/images/large_unit2.png" class="card-img-top" alt="Large Storage Unit">
+                <!-- 25ft container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/25ft.png" class="card-img-top" alt="25ft container">
                         <div class="card-body">
-                            <h5 class="card-title text-dark">Large Storage Unit</h5>
-                            <p class="text-dark mb-2">£150/month</p>
-                            <p class="card-text text-dark">Perfect for house contents or business storage</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Rent Now</a>
-                            </div>
+                            <h4>25ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for house contents or business storage</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>200 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £190/month</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 30ft Container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/30ft.png" class="card-img-top" alt="30ft container">
+                        <div class="card-body">
+                            <h4>30ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £230/month</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- 40ft Container -->
+                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/40ft.png" class="card-img-top" alt="40ft container">
+                        <div class="card-body">
+                            <h4>40ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £290/month</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 45ft Container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/45ft.png" class="card-img-top" alt="45ft container">
+                        <div class="card-body">
+                            <h4>45ft Container</h4>
+                            <p class="text-dark mb-3">Ideal for apartment or office contents</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £330/month</p>
                         </div>
                     </div>
                 </div>
@@ -206,15 +262,7 @@ require_once 'includes/config.php';
                         <p class="text-muted text-dark">Round-the-clock surveillance and security monitoring</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="feature-icon mb-3">
-                            <i class="bi bi-thermometer-half text-dark"></i>
-                        </div>
-                        <h4 class="text-dark">Climate Control</h4>
-                        <p class="text-muted text-dark">Temperature and humidity controlled units available</p>
-                    </div>
-                </div>
+                
                 <div class="col-md-4">
                     <div class="text-center">
                         <div class="feature-icon mb-3">

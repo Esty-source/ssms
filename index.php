@@ -103,6 +103,21 @@ require_once 'includes/config.php';
         .review-stats .bg-white:hover {
             transform: translateY(-5px);
         }
+        .card-img-top {
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Maintain aspect ratio */
+            width: 100%; /* Ensure full width */
+        }
+        .feature-card i {
+            color: red; /* Change icon color to red */
+            font-size: 90px; /* Set icon size */
+            display: block; /* Center the icon */
+            margin: 0 auto; /* Centering the icon */
+            text-align: center; /* Ensure text is centered */
+        }
+        .feature-card {
+            margin-bottom: 20px; /* Add spacing between feature cards */
+        }
     </style>
 </head>
 <body>
@@ -110,7 +125,9 @@ require_once 'includes/config.php';
 
     <!-- Hero Section -->
     <section class="hero-section home-hero">
-        <div class="hero-image" style="background-image: url('assets/images/hero-storage-facility.jpg'); background-size: cover; background-position: center;"></div>
+        <video class="video-background" autoplay muted loop>
+            <source src="assets/videos/storage-facility.mp4" type="video/mp4">
+        </video>
         <div class="overlay"></div>
         <div class="content">
             <div class="container">
@@ -136,9 +153,12 @@ require_once 'includes/config.php';
                                 <div class="col-md-4">
                                     <select class="form-select form-select-lg">
                                         <option value="">Select Size</option>
-                                        <option value="small">Small (25 sq ft)</option>
-                                        <option value="medium">Medium (100 sq ft)</option>
-                                        <option value="large">Large (200 sq ft)</option>
+                                        <option value="small">10ft Container</option>
+                                        <option value="medium">20ft Container</option>
+                                        <option value="large">25ft Container</option>
+                                        <option value="small">30ft Container</option>
+                                        <option value="medium">40ft Container</option>
+                                        <option value="large">45ft Container</option>
                                     </select>
                                 </div>
                                 <div class="col-md-4">
@@ -162,51 +182,103 @@ require_once 'includes/config.php';
     </section>
 
     <!-- Featured Units Section -->
-    <section class="py-5 storage-units">
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5" data-aos="fade-up">Popular Storage Solutions</h2>
             <div class="row g-4">
-                <!-- Small Unit -->
+                <!-- 10ft Container -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/small_unit2.png" class="card-img-top" alt="Small Storage Unit">
+                        <img src="assets/images/10ft.png" class="card-img-top" alt="10ft container">
                         <div class="card-body">
-                            <h4>Small Unit</h4>
+                            <h4>10ft Container</h4>
                             <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$50/month</span>
-                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
-                            </div>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £90/month</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Medium Unit -->
+                <!-- 20ft Container -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/medium_unit2.png" class="card-img-top" alt="Medium Storage Unit">
+                        <img src="assets/images/20ft.png" class="card-img-top" alt="20ft container">
                         <div class="card-body">
-                            <h4>Medium Unit</h4>
+                            <h4>20ft Container</h4>
                             <p class="text-dark mb-3">Ideal for apartment or office contents</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$100/month</span>
-                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
-                            </div>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £150/month</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Large Unit -->
+                <!-- 25ft container -->
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-hover">
-                        <img src="assets/images/large_unit2.png" class="card-img-top" alt="Large Storage Unit">
+                        <img src="assets/images/25ft.png" class="card-img-top" alt="25ft container">
                         <div class="card-body">
-                            <h4>Large Unit</h4>
+                            <h4>25ft Container</h4>
                             <p class="text-dark mb-3">Perfect for house contents or business storage</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$200/month</span>
-                                <a href="containers.php" class="btn btn-outline-primary">Rent Now</a>
-                            </div>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>200 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £190/month</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 30ft Container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/30ft.png" class="card-img-top" alt="30ft container">
+                        <div class="card-body">
+                            <h4>30ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £230/month</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- 40ft Container -->
+                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/40ft.png" class="card-img-top" alt="40ft container">
+                        <div class="card-body">
+                            <h4>40ft Container</h4>
+                            <p class="text-dark mb-3">Perfect for personal items and small furniture</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>25 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £290/month</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 45ft Container -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 shadow-hover">
+                        <img src="assets/images/45ft.png" class="card-img-top" alt="45ft container">
+                        <div class="card-body">
+                            <h4>45ft Container</h4>
+                            <p class="text-dark mb-3">Ideal for apartment or office contents</p>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check2-circle me-2"></i>100 sq ft space</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>Climate controlled</li>
+                                <li><i class="bi bi-check2-circle me-2"></i>24/7 access</li>
+                            </ul>
+                            <p class="h4 mb-0">From £330/month</p>
                         </div>
                     </div>
                 </div>
@@ -221,28 +293,21 @@ require_once 'includes/config.php';
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-card text-center">
-                    <i class="bi bi-shield-lock fs-1 text-primary"></i>
+                    <i class="bi bi-shield-lock mb-3" style="font-size: 90px;"></i>
                         <h4>24/7 Security</h4>
                         <p>Round-the-clock surveillance and secure access control</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="feature-card text-center">
-                    <i class="bi bi-thermometer-half fs-1 text-primary"></i>
-                        <h4>Climate Control</h4>
-                        <p>Temperature-controlled units to protect your belongings</p>
-                    </div>
-                </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="feature-card text-center">
-                    <i class="bi bi-unlock fs-1 text-primary"></i>
+                    <i class="bi bi-door-open mb-3" style="font-size: 90px;"></i>
                         <h4>Easy Access</h4>
-                        <p>24/7 access with your personal security code</p>
+                        <p>24/7 access </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="feature-card text-center">
-                    <i class="bi bi-headset fs-1 text-primary"></i>
+                    <i class="bi bi-headset mb-3" style="font-size: 90px;"></i>
                         <h4>Customer Support</h4>
                         <p>Dedicated team ready to assist you</p>
                     </div>
@@ -252,43 +317,39 @@ require_once 'includes/config.php';
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-5 testimonials-section">
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5" data-aos="fade-up">What Our Customers Say</h2>
             <div class="row g-4">
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial1.jpg" class="testimonial-image" alt="Customer 1">
-                            <div class="testimonial-quote">
-                                <p class="mb-0">"Excellent service! The units are clean, secure, and easily accessible. Staff is always helpful."</p>
-                            </div>
-                            <h5 class="testimonial-name mb-1">John Smith</h5>
-                            <p class="testimonial-role">Business Owner</p>
+                            <img src="assets/images/testimonial1.jpg" class="rounded-circle mb-3" alt="Customer 1" width="80" height="80">
+                            <p class="mb-4">"Excellent service! The units are clean, secure, and easily accessible. Staff is always helpful."</p>
+                            <h5 class="mb-1">John Smith</h5>
+                            <p class="text-muted">Business Owner</p>
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial2.jpg" class="testimonial-image" alt="Customer 2">
-                            <div class="testimonial-quote">
-                                <p class="mb-0">"The climate-controlled units are perfect for storing my valuable items. Great security too!"</p>
-                            </div>
-                            <h5 class="testimonial-name mb-1">Sarah Johnson</h5>
-                            <p class="testimonial-role">Home Owner</p>
+                            <img src="assets/images/testimonial2.jpg" class="rounded-circle mb-3" alt="Customer 2" width="80" height="80">
+                            <p class="mb-4">"Reliable and secure storage solutions tailored to your needs—store with confidence and ease!"</p>
+                            <h5 class="mb-1">Sarah Johnson</h5>
+                            <p class="text-muted">Home Owner</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
-                            <img src="assets/images/testimonial3.jpg" class="testimonial-image" alt="Customer 3">
-                            <div class="testimonial-quote">
-                                <p class="mb-0">"Affordable prices and flexible rental terms. Exactly what I needed for my storage needs."</p>
-                            </div>
-                            <h5 class="testimonial-name mb-1">Mike Wilson</h5>
-                            <p class="testimonial-role">Student</p>
+                            <img src="assets/images/testimonial3.jpg" class="rounded-circle mb-3" alt="Customer 3" width="80" height="80">
+                            <p class="mb-4">"Affordable prices and flexible rental terms. Exactly what I needed for my storage needs."</p>
+                            <h5 class="mb-1">Mike Wilson</h5>
+                            <p class="text-muted">Student</p>
                         </div>
                     </div>
                 </div>
@@ -297,9 +358,8 @@ require_once 'includes/config.php';
     </section>
 
     <!-- CTA Section with Background Image -->
-    <section class="get-started-section position-relative">
-        <div class="get-started-bg-image" style="background-image: url('assets/images/section.jpg');"></div>
-        <div class="container position-relative">
+    <section class="get-started-section">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8" data-aos="fade-up">
                     <h2 class="mb-4">Ready to Get Started?</h2>
