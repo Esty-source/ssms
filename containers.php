@@ -36,6 +36,7 @@ require_once 'includes/config.php';
         .feature-icon {
             background-color: #ff0000;
             color: #000000;
+            text-align: center;
         }
         .feature-icon i {
             color: #000000;
